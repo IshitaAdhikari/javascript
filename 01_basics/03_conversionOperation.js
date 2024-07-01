@@ -27,3 +27,21 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeofstringNumber);
+
+
+
+let value = 3
+let negvalue = -value
+console.log(negValue);
+
+let str1 = "hello"
+let str2 = "ishita"
+
+let str3 = str1  + str2
+console.log(str3);
+
+let abc = 100
+abc++;
+console.log(abc);
+++abc;
+console.log(abc);
