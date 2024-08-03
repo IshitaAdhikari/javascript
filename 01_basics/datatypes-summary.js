@@ -36,3 +36,25 @@ const myFunction = function{
 console.log(typeof outsideTemp);
 //typeof null is object
 //typeof object is function
+
+
+
+//Memory- Stack(primitive) and Heap(non primitive)
+
+let myname = "ishita"
+
+let anothername = myname
+anothername = "ishitaadhikari"
+
+console.log(myname);
+console.log(anothername);
+
+// In stack we get the copy of the value but 
+//in heap we get the refrence of the value
+
+let userone ={
+    email: "one@gmail.com",
+    upi: "one@icici"
+}
+
+let usertwo = userone
