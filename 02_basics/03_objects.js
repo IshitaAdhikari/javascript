@@ -1,7 +1,7 @@
 //objects can be declared by two methods litreal and constructor
  Object.create //singleton - when we declare in the form of constructoror
 
-//obect literals
+//object literals
 
 //imp---take a symbol and add it to the keys of object and print it
 //when we have to print it as a symbol than we add a square bracket
