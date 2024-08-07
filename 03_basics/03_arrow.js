@@ -1,3 +1,8 @@
+
+//imp-----the global object in browser is window object
+
+
+
 const user = {
     username: "ishita",
     price: 599,
@@ -16,7 +21,6 @@ user.welcomeMessage() //here the value changes
 console.log(this);//here the current context is empty 
 
 
-//imp-----the global object in browser is window object
 
 function one(){
     let username = "ishita"
