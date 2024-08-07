@@ -43,4 +43,18 @@ console.log(addOne(4+3));
 
  const abc = (num1, num2) => ({username: "ishita"})//for object we have to use curly braces
 
- 
+
+
+
+ //imp------------------------------
+ //Immediately Invoked Function Expressions (IIFE) ()()
+//The functions that get executed immediately
+//There occurs a problem due to global scope pollution so to remove the polltuion we use IIFE
+
+(function abc(){
+    console.log(`ABC`);
+})(); //so when we write two IIFE together we use semicolon
+
+((name)=>{
+    console.log(`Nmae is ${name}`);
+})('ishita')
