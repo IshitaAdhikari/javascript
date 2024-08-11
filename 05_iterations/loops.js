@@ -27,14 +27,34 @@ for (const [key, value] of map) {
 }
 
 
-const myObject = {
+/*const myObject = {
     'game1' : 'NFS',
     'game2' : 'Spiderman'
 }
 
 for (const [key, value] of myObject) {
     console.log(key, ':-', value);
-}
+}*/
 
 //In objects this forof loop does not works
 //because objects are not iterable
+
+
+//so for objects we use forin loop
+const myObject = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: 'ruby',
+    swift: 'swift by apple'
+}
+
+for (const key in myObject) {
+   //console.log(`${key} shortcut is for ${myObject[key]}`);
+}
+
+const programming = ["js", "cpp", "ruby", "pyhton", "java"]
+
+for (const key in programming) {
+    console.log(programming[key]);
+}
+//for in loop gives the keys which starts from 0
