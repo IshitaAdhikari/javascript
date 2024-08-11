@@ -1,9 +1,9 @@
 const coding = ["js", "ruby", "pyhton", "cpp", "java"]
 
 const values = coding.forEach( (item) => {
-    console.log(item);  
+   // console.log(item);  
 })
-console.log(values);
+//console.log(values);
 //foreach loop does not return any value
 
 const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -21,7 +21,7 @@ myNums.forEach( (num) => {
         newNums.push(num)
     }
 })
-console.log(newNums);
+//console.log(newNums);
 
 
 const books = [
@@ -39,6 +39,18 @@ const books = [
 const userBooks = books.filter( (bk) => bk.genre === 'History')
 
 const userBook = books.filter( (bk) => bk.publish >= 1995 && bk.genre === 'History')
-console.log(userBook);
+//console.log(userBook);
 
 
+const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const newNum = myNumbers.map( (num) => num + 10)
+//console.log(newNum);
+
+//Chaining------------
+
+const newNumber = myNumbers
+        .map((num) => num * 10)
+        .map((num) => num + 1) //this will work when the values are multiplied by 10
+        .filter((num) => num >=40)
+console.log(newNumber);
